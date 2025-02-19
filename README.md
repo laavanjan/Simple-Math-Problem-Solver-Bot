@@ -6,20 +6,20 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-%230078D7-blue?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![LangChain](https://img.shields.io/badge/LangChain-%232AA198-blue?style=flat&logo=langchain&logoColor=white)](https://langchain.readthedocs.io/en/latest/index.html)
 [![LangSmith](https://img.shields.io/badge/LangSmith-%23000000-blue?style=flat&logo=langsmith&logoColor=white)](https://smith.langchain.com/)
-
+![Image Description](img8.png)
 This repository contains a Streamlit-based chatbot designed to solve basic mathematical problems presented in natural language. It leverages the power of LangChain,  Llama 3 LLM, and various tools (including a calculator and Wikipedia lookup) to provide accurate solutions and detailed explanations.  This project is licensed under the GPL v3 license.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
+- [Demo Pictures](#demo-pictures)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Architecture](#architecture)
 - [Environment Variables](#environment-variables)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 
@@ -38,6 +38,24 @@ The Simple-Math-Problem-Solver-Bot aims to bridge the gap between natural langua
 - **Conversation History:** Maintains a conversation history for context awareness.
 - **Responsive Design:** The Streamlit app is designed to be responsive across different devices.
 
+## Demo pictures
+| ![Image 1](img2.png) | ![Image 2](img3.png) |
+|----------------------|----------------------|
+| Image 1              | Image 2              |
+
+| ![Image 3](img4.png) | ![Image 4](img5.png) |
+|----------------------|----------------------|
+| Image 3              | Image 4              |
+
+| ![Image 5](img5.png) | ![Image 6](img6.png) |
+|----------------------|----------------------|
+| Image 5              | Image 6              |
+
+| ![Image 7](img7.png) |                      |
+|----------------------|----------------------|
+| Image 7              |                      |
+            |
+
 ## Installation
 
 1. **Clone the repository:**
@@ -52,7 +70,7 @@ cd Simple-Math-Problem-Solver-Bot
 <!-- end list -->
 
 ```bash
-python3 -m venv venv
+codna create -p venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
